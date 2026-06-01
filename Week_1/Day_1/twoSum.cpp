@@ -11,6 +11,7 @@ int removeDuplicates(vector<int>& nums) {
     return j+1;
 }
 
+
 int main(){
     vector<int> v = {1,1,2};
     cout << removeDuplicates(v) << endl;
