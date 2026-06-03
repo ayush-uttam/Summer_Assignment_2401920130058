@@ -21,7 +21,7 @@ int main(){
     vector<int> v={0,1,0,3,12};
     moveZeroes(v);
     for(auto x:v){
-        cout << x << " " ;
+        cout << x << " " ; 
     }
     return 0;
 }
