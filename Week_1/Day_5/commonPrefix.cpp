@@ -28,7 +28,8 @@ string longestCommonPrefix(vector<string>& strs) {
 }
 
 int main(){
-    vector<string> s={"flower","flow","flight"};
+    // vector<string> s={"flower","flow","flight"};
+    vector<string> s = {"aaaa","aaa","aaa"};
     cout << longestCommonPrefix(s) << endl;
     return 0;
 }
